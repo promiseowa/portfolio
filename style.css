@@ -1,0 +1,102 @@
+body {
+  font-family: cursive;
+  background: linear-gradient(
+    89.8deg,
+    rgb(204, 156, 223) 0.3%,
+    rgb(155, 219, 245) 20.4%,
+    rgb(245, 183, 208) 40.2%,
+    rgb(250, 186, 98) 62.9%,
+    rgb(234, 238, 240) 81.9%,
+    rgb(250, 245, 171) 99.2%
+  );
+}
+
+:root {
+  --primary-color: blueviolet;
+  --accent-color: yellow;
+  --secondary-color: blue;
+  --padding: 20px;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 10px 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-color);
+  box-shadow: var(--box-shadow);
+}
+
+.secondary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: sans-serif;
+  color: var(--primary-color);
+}
+p {
+  text-align: center;
+}
+.information {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.info {
+  padding: var(--padding);
+  display: flex;
+  justify-content: center;
+}
+a {
+  color: black;
+  font-size: 20px;
+}
+a:hover {
+  color: var(--secondary-color);
+  background-color: var(--accent-color);
+}
+a:visited {
+  color: blue;
+}
+h2 {
+  text-align: center;
+}
+.details {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: coral;
+}
+
+.details-1 {
+  padding: var(--padding);
+  border: 2px solid var(--primary-color);
+}
+
+.launcher {
+  text-align: center;
+}
+
+@media (max-width: 510px) {
+  body {
+    font-family: sans-serif;
+  }
+
+  .primary-link {
+    font-size: 12px;
+  }
+  #contact-link {
+    font-size: 20px;
+  }
+  h1 {
+    font-weight: 400;
+  }
+}
