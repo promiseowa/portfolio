@@ -92,13 +92,26 @@ h2 {
 
 .content-container {
   text-align: center;
-  padding: 0;
-  margin: 0 auto;
+  padding: 29px;
+  margin: 7px auto;
+}
+.content {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-@media (max-width: 510px) {
+#about-image {
+  width: 330px;
+}
+
+@media (max-width: 542px) {
   body {
     font-family: sans-serif;
+  }
+
+  #about-image {
+    margin: 22px;
+    width: 330px;
   }
 
   .primary-link {
@@ -109,5 +122,10 @@ h2 {
   }
   h1 {
     font-weight: 400;
+  }
+
+  .content {
+    display: block;
+    font-size: 10px;
   }
 }
