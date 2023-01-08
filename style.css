@@ -50,11 +50,18 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.intro {
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 .info {
   padding: var(--padding);
   display: flex;
   justify-content: center;
+  margin-top: 5px;
 }
 a {
   color: black;
@@ -70,6 +77,7 @@ a:visited {
 h2 {
   text-align: center;
 }
+
 .details {
   display: flex;
   justify-content: space-evenly;
