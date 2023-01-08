@@ -137,4 +137,11 @@ h2 {
     display: block;
     font-size: 10px;
   }
+  .card-img {
+    height: 400px;
+  }
+  element.style {
+    max-width: 100px;
+    height: auto;
+  }
 }
